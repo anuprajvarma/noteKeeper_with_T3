@@ -114,7 +114,6 @@ const Content: React.FC = () => {
             </div>
           ))}
         </div>
-
         <NoteEditor
           onSave={({ title, content }) => {
             void createNote.mutate({
